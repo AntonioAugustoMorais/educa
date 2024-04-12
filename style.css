@@ -296,72 +296,6 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 2rem;
-}
-
-.card {
-  background: #262525;
-  color: #fff;
-  padding: 1.5rem;
-  overflow: hidden;
-  border-radius: 0.8rem;
-}
-
-.card-title-large {
-  font-family: fantasy, sans-serif;
-  font-size: 4rem;
-  letter-spacing: 0.5rem;
-  color: #1d1d1d;
-  transform: translateX(18rem);
-  transition: transform 5s;
-}
-
-.card-title-small {
-  margin-bottom: 1rem;
-}
-
-.card-description {
-  font-size: 1.4rem;
-  line-height: 1.5rem;
-}
-
-.card:hover .card-title-large {
-  transform: translateX(-80%);
-  color: #fff;
-}
-
-.card.introducao:hover {
-  background: radial-gradient(at 20% 128%,
-      #ac2bb3 20%,
-      #e23467 60%,
-      #feda78 90%);
-}
-
-.card.metodologia:hover {
-  background: radial-gradient(at 20% 128%,
-      #ac2bb3 20%,
-      #e23467 60%,
-      #feda78 90%);
-}
-
-.card.auxilio:hover {
-  background: radial-gradient(at 20% 128%,
-      #ac2bb3 20%,
-      #e23467 60%,
-      #feda78 90%);
-}
-
-.card.Bolsas:hover {
-  background: radial-gradient(at 20% 128%,
-      #ac2bb3 20%,
-      #e23467 60%,
-      #feda78 90%);
-} */
-
 /* ====== SECTION ABOUT ====== */
 
 projects {
@@ -392,7 +326,6 @@ projects {
 .projects h2 {
   color: #272727;
   font-family: "Poppins", sans-serif;
-  /* font-size: 2.32444rem; */
   font-style: normal;
   font-weight: 500;
 }
@@ -432,7 +365,7 @@ projects {
 }
 
 .slides {
-  width: 400%;
+  width: 40rem;
   height: 400px;
   display: flex;
 }
@@ -447,7 +380,7 @@ projects {
 }
 
 .slides img {
-  width: 800px;
+  width: 40rem;
 }
 
 .manual-navegation {
