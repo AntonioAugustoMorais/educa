@@ -365,7 +365,7 @@ projects {
 }
 
 .slides {
-  width: 40rem;
+  width: 400%;
   height: 400px;
   display: flex;
 }
@@ -380,7 +380,7 @@ projects {
 }
 
 .slides img {
-  width: 40rem;
+  width: 800px;
 }
 
 .manual-navegation {
