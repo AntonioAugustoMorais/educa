@@ -358,15 +358,15 @@ projects {
 
 .slider {
   margin: auto;
-  width: 800px;
-  height: 400px;
+  width: 25rem; /*  25rem= 400px 800px */
+  height: 12.5rem;  /* 12.5rem= 200px 400px */
   overflow: hidden;
   border-radius: 1rem;
 }
 
 .slides {
-  width: 400%;
-  height: 400px;
+  width: 400%; /*  400% */
+  height: 12.5rem; /*  400px */
   display: flex;
 }
 
@@ -380,13 +380,13 @@ projects {
 }
 
 .slides img {
-  width: 800px;
+  width: 25rem; /*  800px */
 }
 
 .manual-navegation {
   position: absolute;
-  width: 800px;
-  margin-top: -40px;
+  width: 25rem;  /*  800px */
+  margin-top: -2.5rem;  /*  -40px */
   display: flex;
   justify-content: center
 }
@@ -433,8 +433,8 @@ projects {
 
 .navigation-auto {
   position: absolute;
-  width: 800px;
-  margin-top: 360px;
+  width: 25rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: center;
 }
